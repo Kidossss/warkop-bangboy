@@ -35,7 +35,6 @@
                     <a href="{{ route('home') }}" class="text-sm text-dark-300 hover:text-white transition">Home</a>
                     <a href="{{ route('home') }}#menu" class="text-sm text-dark-300 hover:text-white transition">Menu</a>
                     <a href="{{ route('home') }}#about" class="text-sm text-dark-300 hover:text-white transition">Tentang</a>
-                    <a href="{{ route('order.track') }}" class="text-sm text-dark-300 hover:text-white transition">Lacak Pesanan</a>
                     <a href="{{ route('admin.dashboard') }}" class="text-xs bg-dark-700 hover:bg-dark-600 text-dark-200 px-3 py-1.5 rounded-full transition">Admin</a>
                     <a href="{{ route('cart.index') }}" class="relative text-dark-300 hover:text-white transition">
                         <i class="fas fa-shopping-bag"></i>

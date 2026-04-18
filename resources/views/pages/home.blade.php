@@ -31,38 +31,27 @@
 {{-- Features --}}
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <div class="text-center mb-12">
-            <span class="text-primary-600 text-xs font-semibold uppercase tracking-widest">Kenapa Warkop Bang Boy?</span>
-            <h2 class="text-3xl font-bold text-dark-900 mt-2">Yang Bikin Betah Nongkrong</h2>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
-            <div class="p-6 rounded-2xl bg-dark-50 border border-dark-100 hover:border-emerald-200 hover:bg-emerald-50/50 transition-all duration-300 cursor-default">
-                <div class="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-4">
-                    <i class="fas fa-mug-hot text-lg text-emerald-600"></i>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="text-center p-8 rounded-2xl bg-dark-50 hover:bg-primary-50 transition-colors group">
+                <div class="w-14 h-14 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:bg-primary-200 transition">
+                    <i class="fas fa-coffee text-xl text-primary-600"></i>
                 </div>
                 <h3 class="text-lg font-bold text-dark-900 mb-2">Kedai Kopi</h3>
-                <p class="text-dark-500 text-sm leading-relaxed">Kopi saring, signature, V60, dan aneka minuman sachet</p>
+                <p class="text-dark-500 text-sm">Berbagai macam minuman dari kopi saring, signature, sampai aneka minuman sachet</p>
             </div>
-            <div class="p-6 rounded-2xl bg-dark-50 border border-dark-100 hover:border-amber-200 hover:bg-amber-50/50 transition-all duration-300 cursor-default">
-                <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mb-4">
-                    <i class="fas fa-clock text-lg text-amber-600"></i>
+            <div class="text-center p-8 rounded-2xl bg-dark-50 hover:bg-primary-50 transition-colors group">
+                <div class="w-14 h-14 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:bg-primary-200 transition">
+                    <i class="fas fa-clock text-xl text-primary-600"></i>
                 </div>
-                <h3 class="text-lg font-bold text-dark-900 mb-2">24 Jam Nonstop</h3>
-                <p class="text-dark-500 text-sm leading-relaxed">Buka setiap hari tanpa libur, dari pagi sampai pagi lagi</p>
+                <h3 class="text-lg font-bold text-dark-900 mb-2">Buka 24 Jam</h3>
+                <p class="text-dark-500 text-sm">Melayani Anda kapan saja, setiap hari tanpa libur</p>
             </div>
-            <div class="p-6 rounded-2xl bg-dark-50 border border-dark-100 hover:border-blue-200 hover:bg-blue-50/50 transition-all duration-300 cursor-default">
-                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4">
-                    <i class="fas fa-utensils text-lg text-blue-600"></i>
-                </div>
-                <h3 class="text-lg font-bold text-dark-900 mb-2">Menu Lengkap</h3>
-                <p class="text-dark-500 text-sm leading-relaxed">Indomie, nasi goreng, omelet, cemilan, dan 55+ menu lainnya</p>
-            </div>
-            <div class="p-6 rounded-2xl bg-dark-50 border border-dark-100 hover:border-violet-200 hover:bg-violet-50/50 transition-all duration-300 cursor-default">
-                <div class="w-12 h-12 bg-violet-100 rounded-xl flex items-center justify-center mb-4">
-                    <i class="fas fa-location-dot text-lg text-violet-600"></i>
+            <div class="text-center p-8 rounded-2xl bg-dark-50 hover:bg-primary-50 transition-colors group">
+                <div class="w-14 h-14 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:bg-primary-200 transition">
+                    <i class="fas fa-map-marker-alt text-xl text-primary-600"></i>
                 </div>
                 <h3 class="text-lg font-bold text-dark-900 mb-2">Lokasi Strategis</h3>
-                <p class="text-dark-500 text-sm leading-relaxed">Simpang Lima Semper, samping Alfamidi Tipar Cakung 2</p>
+                <p class="text-dark-500 text-sm">Samping Alfamidi Tipar Cakung 2, Simpang Lima Semper</p>
             </div>
         </div>
     </div>

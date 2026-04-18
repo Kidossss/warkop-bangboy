@@ -16,13 +16,13 @@ class Product extends Model
         return $this->belongsTo(Category::class);
     }
 
-    public function orderItems()
+    public function variants()
     {
-        return $this->hasMany(OrderItem::class);
+        return $this->hasMany(ProductVariant::class);
     }
 
-    public function getFormattedPriceAttribute(): string
+    public function hasVariants()
     {
-        return 'Rp ' . number_format($this->price, 0, ',', '.');
+        return $this->variants()->count() > 0;
     }
 }
